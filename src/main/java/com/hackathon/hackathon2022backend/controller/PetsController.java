@@ -27,9 +27,24 @@ public class PetsController {
         return petsService.findById(id);
     }
 
-    @GetMapping("/filter/{type}")
+    @GetMapping("/filter/type/{type}")
     public List<Pets> filterPetsByType(@PathVariable String type){
         return petsService.findPetByType(type);
+    }
+
+    @GetMapping("/filter/location/{location}")
+    public List<Pets> filterPetsByLocation(@PathVariable String location){
+        return petsService.findPetsByLocation(location);
+    }
+
+    @GetMapping("/filter/size/{size}")
+    public List<Pets> filterPetsBySize(@PathVariable String size){
+        return petsService.findPetsBySize(size);
+    }
+
+    @GetMapping("/filter/schedule/{schedule}")
+    public List<Pets> filterPetsBySchedule(@PathVariable String schedule){
+        return petsService.findPetsBySchedule(schedule);
     }
 
 }

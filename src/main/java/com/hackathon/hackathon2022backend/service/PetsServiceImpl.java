@@ -38,4 +38,19 @@ public class PetsServiceImpl implements PetsService{
     public List<Pets> findPetByType(String type) {
         return petsRepo.findAllByType(type);
     }
+
+    @Override
+    public List<Pets> findPetsByLocation(String location) {
+        return petsRepo.findAllByLocation(location);
+    }
+
+    @Override
+    public List<Pets> findPetsBySize(String size) {
+        return petsRepo.findAllBySize(size);
+    }
+
+    @Override
+    public List<Pets> findPetsBySchedule(String schedule) {
+        return petsRepo.findAllBySchedule(schedule);
+    }
 }

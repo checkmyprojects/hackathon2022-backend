@@ -10,4 +10,7 @@ import java.util.List;
 public interface PetsRepo extends JpaRepository<Pets, Long> {
 
     List<Pets> findAllByType(String type);
+    List<Pets> findAllByLocation(String location);
+    List<Pets> findAllBySize(String size);
+    List<Pets> findAllBySchedule(String schedule);
 }

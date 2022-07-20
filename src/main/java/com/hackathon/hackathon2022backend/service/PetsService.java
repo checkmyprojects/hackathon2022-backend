@@ -10,4 +10,7 @@ public interface PetsService {
     Pets findById(Long id);
     List<Pets> saveAll(List<Pets> petsList);
     List<Pets> findPetByType(String type);
+    List<Pets> findPetsByLocation(String location);
+    List<Pets> findPetsBySize(String size);
+    List<Pets> findPetsBySchedule(String schedule);
 }
