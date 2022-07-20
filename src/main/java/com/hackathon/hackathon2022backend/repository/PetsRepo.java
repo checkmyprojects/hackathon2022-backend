@@ -13,4 +13,5 @@ public interface PetsRepo extends JpaRepository<Pets, Long> {
     List<Pets> findAllByLocation(String location);
     List<Pets> findAllBySize(String size);
     List<Pets> findAllBySchedule(String schedule);
+    List<Pets> findAllByFavouriteIsTrue();
 }

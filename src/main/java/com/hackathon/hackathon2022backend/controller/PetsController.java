@@ -47,4 +47,9 @@ public class PetsController {
         return petsService.findPetsBySchedule(schedule);
     }
 
+    @GetMapping("/filter/favourites")
+    public List<Pets> filterPetsByFavourite(){
+        return petsService.findPetsByFavouriteIsTrue();
+    }
+
 }

@@ -53,4 +53,9 @@ public class PetsServiceImpl implements PetsService{
     public List<Pets> findPetsBySchedule(String schedule) {
         return petsRepo.findAllBySchedule(schedule);
     }
+
+    @Override
+    public List<Pets> findPetsByFavouriteIsTrue() {
+        return petsRepo.findAllByFavouriteIsTrue();
+    }
 }

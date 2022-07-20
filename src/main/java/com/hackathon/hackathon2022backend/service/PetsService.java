@@ -13,4 +13,5 @@ public interface PetsService {
     List<Pets> findPetsByLocation(String location);
     List<Pets> findPetsBySize(String size);
     List<Pets> findPetsBySchedule(String schedule);
+    List<Pets> findPetsByFavouriteIsTrue();
 }

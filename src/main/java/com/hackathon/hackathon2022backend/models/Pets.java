@@ -31,6 +31,8 @@ public class Pets {
 
     private String img;
 
+    private boolean favourite; // add to favourites
+
     public Long getId() {
         return id;
     }
@@ -119,7 +121,15 @@ public class Pets {
         this.location = location;
     }
 
-    public Pets(Long id, String name, String type, String size, String schedule, int age, String owner, int ownerAge, String description, String location, String img) {
+    public boolean isFavourite() {
+        return favourite;
+    }
+
+    public void setFavourite(boolean favourite) {
+        this.favourite = favourite;
+    }
+
+    public Pets(Long id, String name, String type, String size, String schedule, int age, String owner, int ownerAge, String description, String location, String img, boolean favourite) {
         this.id = id;
         this.name = name;
         this.type = type;
@@ -131,16 +141,10 @@ public class Pets {
         this.description = description;
         this.location = location;
         this.img = img;
+        this.favourite = favourite;
     }
 
-    public Pets(String name, String type, String size, String img) {
-        this.name = name;
-        this.type = type;
-        this.size = size;
-        this.img = img;
-    }
-
-    public Pets(String name, String type, String size, String schedule, int age, String owner, int ownerAge, String description, String location, String img) {
+    public Pets(String name, String type, String size, String schedule, int age, String owner, int ownerAge, String description, String location, String img, boolean favourite) {
         this.name = name;
         this.type = type;
         this.size = size;
@@ -151,6 +155,7 @@ public class Pets {
         this.description = description;
         this.location = location;
         this.img = img;
+        this.favourite = favourite;
     }
 
     public Pets() {
