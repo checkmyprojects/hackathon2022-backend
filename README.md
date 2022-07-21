@@ -24,7 +24,9 @@ Hi there!
 - Adrián: https://github.com/adrianmoratilla
 - Jesús: https://github.com/checkmyprojects
 - Jordi: https://github.com/JordiGDavant
-- Mario Rubio  https://github.com/marioastur
+- María Angélica https://github.com/MariangelicaCarvallo
+- Mario Rubio https://github.com/marioastur
+- Marina https://github.com/Yelose
 - Sara: https://github.com/Saracode13
 - Taoufik:https://github.com/taoufikL12
 
@@ -36,7 +38,6 @@ Hi there!
 - Use Swagger for API documentation.
 
 ## Lessons Learned:
-
 
 When deploying to heroku we had to use Postgres because it doesn't support an in-memory database
 
