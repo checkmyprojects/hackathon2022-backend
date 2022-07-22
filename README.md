@@ -24,11 +24,11 @@ Hi there!
 - Adrián: https://github.com/adrianmoratilla
 - Jesús: https://github.com/checkmyprojects
 - Jordi: https://github.com/JordiGDavant
-- María Angélica https://github.com/MariangelicaCarvallo
-- Mario Rubio https://github.com/marioastur
-- Marina https://github.com/Yelose
+- María: Angélica https://github.com/MariangelicaCarvallo
+- Mario Rubio: https://github.com/marioastur
+- Marina: https://github.com/Yelose
 - Sara: https://github.com/Saracode13
-- Taoufik:https://github.com/taoufikL12
+- Taoufik: https://github.com/taoufikL12
 
 
 ## Optimizations
