@@ -47,7 +47,7 @@ A good planning helps speed things up.
 # API Documentation
 
 ### Base Path: /api/pets
-## Users
+
 ### Return a list of all pets
 ```GET: /list```
 ```json
@@ -205,7 +205,7 @@ A good planning helps speed things up.
 ]
 ```
 ### Return all pets on that location
-```GET: /location/{location}```
+```GET: /filter/location/{location}```
 
 ```json
 [
@@ -226,7 +226,7 @@ A good planning helps speed things up.
 ]
 ```
 ### Return all pets of that size
-```GET: /size/{size}```
+```GET: /filter/size/{size}```
 
 ```json
 [
