@@ -24,7 +24,7 @@ Hi there!
 - Adrián: https://github.com/adrianmoratilla
 - Jesús: https://github.com/checkmyprojects
 - Jordi: https://github.com/JordiGDavant
-- María: Angélica https://github.com/MariangelicaCarvallo
+- María Angélica: https://github.com/MariangelicaCarvallo
 - Mario Rubio: https://github.com/marioastur
 - Marina: https://github.com/Yelose
 - Sara: https://github.com/Saracode13
